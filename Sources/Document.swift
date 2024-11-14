@@ -105,10 +105,15 @@ open class XMLDocument {
   - returns: An `XMLDocument` with the contents of the specified XML string.
   */
   public convenience init(cChars: [CChar]) throws {
-    let buffer = cChars.withUnsafeBufferPointer { buffer in
-        UnsafeBufferPointer(rebasing: buffer[0..<buffer.count])
-    }
-    try self.init(buffer: buffer)
+      let mutablebuffer = UnsafeMutableBufferPointer<CChar>.allocate(capacity: cChars.count)
+      _ = mutablebuffer.initialize(from: cChars)
+      
+      defer {
+          mutablebuffer.deallocate()
+      }
+      
+      let buffer = UnsafeBufferPointer(mutablebuffer)
+      try self.init(buffer: buffer)
   }
 
   /**
