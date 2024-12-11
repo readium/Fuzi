@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = "Fuzi"
-  s.version      = "3.1.4"
+  s.name         = "ReadiumFuzi"
+  s.version      = "4.0.0"
   s.license      = "MIT"
   s.summary      = "A fast & lightweight XML & HTML parser in Swift with XPath & CSS support"
   s.homepage     = "https://github.com/readium/Fuzi"
@@ -11,10 +11,7 @@ Pod::Spec.new do |s|
   # cocoadocs.org might not be working
   # s.documentation_url = "http://cezheng.github.io/Fuzi"
   
-  s.ios.deployment_target = "8.0"
-  s.osx.deployment_target = "10.9"
-  s.watchos.deployment_target = "2.0"
-  s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = "13.0"
 
   s.source_files  = "Sources/*.swift"
 
