@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "792500AA1BA6CF6B0011671B"
                BuildableName = "Fuzi.framework"
-               BlueprintName = "Fuzi"
+               BlueprintName = "ReadiumFuzi"
                ReferencedContainer = "container:Fuzi.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,7 +32,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "792500AA1BA6CF6B0011671B"
             BuildableName = "Fuzi.framework"
-            BlueprintName = "Fuzi"
+            BlueprintName = "ReadiumFuzi"
             ReferencedContainer = "container:Fuzi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -42,8 +42,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "792500B61BA6CFBB0011671B"
-               BuildableName = "FuziTests.xctest"
-               BlueprintName = "FuziTests"
+               BuildableName = "ReadiumFuziTests.xctest"
+               BlueprintName = "ReadiumFuziTests"
                ReferencedContainer = "container:Fuzi.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,7 +64,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "792500AA1BA6CF6B0011671B"
             BuildableName = "Fuzi.framework"
-            BlueprintName = "Fuzi"
+            BlueprintName = "ReadiumFuzi"
             ReferencedContainer = "container:Fuzi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +80,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "792500AA1BA6CF6B0011671B"
             BuildableName = "Fuzi.framework"
-            BlueprintName = "Fuzi"
+            BlueprintName = "ReadiumFuzi"
             ReferencedContainer = "container:Fuzi.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

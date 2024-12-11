@@ -15,7 +15,7 @@
 		0C354AA21D9633720005B0AD /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A991D9633720005B0AD /* Node.swift */; };
 		0C354AA31D9633720005B0AD /* NodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9A1D9633720005B0AD /* NodeSet.swift */; };
 		0C354AA41D9633720005B0AD /* Queryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C354A9B1D9633720005B0AD /* Queryable.swift */; };
-		792500BC1BA6CFBB0011671B /* Fuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792500AB1BA6CF6B0011671B /* Fuzi.framework */; };
+		792500BC1BA6CFBB0011671B /* ReadiumFuzi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792500AB1BA6CF6B0011671B /* ReadiumFuzi.framework */; };
 		792500C81BA6D06B0011671B /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F461B1B90479F00E4CE2C /* AtomTests.swift */; };
 		792500C91BA6D06E0011671B /* XMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F46271B904CE500E4CE2C /* XMLTests.swift */; };
 		792500CA1BA6D0700011671B /* HTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F462F1B9454A100E4CE2C /* HTMLTests.swift */; };
@@ -51,8 +51,8 @@
 		0C354A9A1D9633720005B0AD /* NodeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeSet.swift; sourceTree = "<group>"; };
 		0C354A9B1D9633720005B0AD /* Queryable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queryable.swift; sourceTree = "<group>"; };
 		7913918E1B53B09F00BC07C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		792500AB1BA6CF6B0011671B /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		792500B71BA6CFBB0011671B /* FuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		792500AB1BA6CF6B0011671B /* ReadiumFuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReadiumFuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		792500B71BA6CFBB0011671B /* ReadiumFuziTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadiumFuziTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		792832DA1BA93DBF0063CC05 /* atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = atom.xml; sourceTree = "<group>"; };
 		792832DB1BA93DBF0063CC05 /* ocf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ocf.xml; sourceTree = "<group>"; };
 		792832DC1BA93DBF0063CC05 /* vmap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vmap.xml; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				792500BC1BA6CFBB0011671B /* Fuzi.framework in Frameworks */,
+				792500BC1BA6CFBB0011671B /* ReadiumFuzi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +114,8 @@
 		7913917E1B53B09F00BC07C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				792500AB1BA6CF6B0011671B /* Fuzi.framework */,
-				792500B71BA6CFBB0011671B /* FuziTests.xctest */,
+				792500AB1BA6CF6B0011671B /* ReadiumFuzi.framework */,
+				792500B71BA6CFBB0011671B /* ReadiumFuziTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		792500AA1BA6CF6B0011671B /* Fuzi */ = {
+		792500AA1BA6CF6B0011671B /* ReadiumFuzi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 792500B01BA6CF6B0011671B /* Build configuration list for PBXNativeTarget "Fuzi" */;
+			buildConfigurationList = 792500B01BA6CF6B0011671B /* Build configuration list for PBXNativeTarget "ReadiumFuzi" */;
 			buildPhases = (
 				792500A61BA6CF6B0011671B /* Sources */,
 				792500A71BA6CF6B0011671B /* Frameworks */,
@@ -175,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = Fuzi;
+			name = ReadiumFuzi;
 			productName = Fuzi;
-			productReference = 792500AB1BA6CF6B0011671B /* Fuzi.framework */;
+			productReference = 792500AB1BA6CF6B0011671B /* ReadiumFuzi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		792500B61BA6CFBB0011671B /* FuziTests */ = {
+		792500B61BA6CFBB0011671B /* ReadiumFuziTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 792500BF1BA6CFBB0011671B /* Build configuration list for PBXNativeTarget "FuziTests" */;
+			buildConfigurationList = 792500BF1BA6CFBB0011671B /* Build configuration list for PBXNativeTarget "ReadiumFuziTests" */;
 			buildPhases = (
 				792500B31BA6CFBB0011671B /* Sources */,
 				792500B41BA6CFBB0011671B /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				792500BE1BA6CFBB0011671B /* PBXTargetDependency */,
 			);
-			name = FuziTests;
+			name = ReadiumFuziTests;
 			productName = "Fuzi-OSXTests";
-			productReference = 792500B71BA6CFBB0011671B /* FuziTests.xctest */;
+			productReference = 792500B71BA6CFBB0011671B /* ReadiumFuziTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				792500AA1BA6CF6B0011671B /* Fuzi */,
-				792500B61BA6CFBB0011671B /* FuziTests */,
+				792500AA1BA6CF6B0011671B /* ReadiumFuzi */,
+				792500B61BA6CFBB0011671B /* ReadiumFuziTests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 /* Begin PBXTargetDependency section */
 		792500BE1BA6CFBB0011671B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 792500AA1BA6CF6B0011671B /* Fuzi */;
+			target = 792500AA1BA6CF6B0011671B /* ReadiumFuzi */;
 			targetProxy = 792500BD1BA6CFBB0011671B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -357,7 +357,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = me.cezheng.Fuzi;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = ReadiumFuzi;
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos watchos iphonesimulator appletvsimulator watchsimulator";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -420,7 +420,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.cezheng.Fuzi;
-				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PRODUCT_NAME = ReadiumFuzi;
 				SUPPORTED_PLATFORMS = "macosx iphoneos appletvos watchos iphonesimulator appletvsimulator watchsimulator";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -525,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		792500B01BA6CF6B0011671B /* Build configuration list for PBXNativeTarget "Fuzi" */ = {
+		792500B01BA6CF6B0011671B /* Build configuration list for PBXNativeTarget "ReadiumFuzi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				792500B11BA6CF6B0011671B /* Debug */,
@@ -534,7 +534,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		792500BF1BA6CFBB0011671B /* Build configuration list for PBXNativeTarget "FuziTests" */ = {
+		792500BF1BA6CFBB0011671B /* Build configuration list for PBXNativeTarget "ReadiumFuziTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				792500C01BA6CFBB0011671B /* Debug */,

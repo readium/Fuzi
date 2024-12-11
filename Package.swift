@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "Fuzi",
+    name: "ReadiumFuzi",
     products: [
-        .library(name: "Fuzi", targets: ["Fuzi"]),
+        .library(name: "ReadiumFuzi", targets: ["ReadiumFuzi"]),
     ],
     targets: [
-        .target(name: "Fuzi",
+        .target(name: "ReadiumFuzi",
             path: "Sources",
             linkerSettings: [.linkedLibrary("xml2")]
         ),
-        .testTarget(name: "FuziTests",
-                    dependencies: ["Fuzi"],
+        .testTarget(name: "ReadiumFuziTests",
+                    dependencies: ["ReadiumFuzi"],
                     path: "Tests"
         )
     ]
