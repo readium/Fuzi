@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReadiumFuzi"
-  s.version      = "4.0.0"
+  s.version      = "4.0.1"
   s.license      = "MIT"
   s.summary      = "A fast & lightweight XML & HTML parser in Swift with XPath & CSS support"
   s.homepage     = "https://github.com/readium/Fuzi"
@@ -12,6 +12,10 @@ Pod::Spec.new do |s|
   # s.documentation_url = "http://cezheng.github.io/Fuzi"
   
   s.ios.deployment_target = "13.0"
+
+  # The sources are not Swift 6 language mode ready. Without this, CocoaPods
+  # infers the Swift version from the pod integrating ReadiumFuzi.
+  s.swift_versions = ['5.10']
 
   s.source_files  = "Sources/*.swift"
 
